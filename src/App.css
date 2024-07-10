@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px
+}
+.accordian-container{
+  margin-top: 20px
+}
+.accordian-item{
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.accordian-title{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #f1f1f1;
+  cursor: pointer;
+}
+.accordian-content{
+  padding: 10px;
+  background: #fff;
+}
+.active .accordian-content{
+  display: block;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.accordian-content input,
+.accordion-content select,
+.accordiantextarea{
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px;
+}
